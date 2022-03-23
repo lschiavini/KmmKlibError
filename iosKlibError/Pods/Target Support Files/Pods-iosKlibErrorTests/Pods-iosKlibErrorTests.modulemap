@@ -1,0 +1,6 @@
+framework module Pods_iosKlibErrorTests {
+  umbrella header "Pods-iosKlibErrorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

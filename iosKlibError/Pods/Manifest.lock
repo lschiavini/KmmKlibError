@@ -1,0 +1,16 @@
+PODS:
+  - shared_core (1.0)
+
+DEPENDENCIES:
+  - shared_core (from `../shared_core`)
+
+EXTERNAL SOURCES:
+  shared_core:
+    :path: "../shared_core"
+
+SPEC CHECKSUMS:
+  shared_core: af4c3d24ddfb37d58d9b39f9636b276b38fcae67
+
+PODFILE CHECKSUM: 4746db2007b37c8a9a8c1556fbd972e6e5701f14
+
+COCOAPODS: 1.11.3

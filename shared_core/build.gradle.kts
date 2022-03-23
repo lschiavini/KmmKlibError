@@ -77,7 +77,7 @@ kotlin {
 }
 
 multiplatformResources {
-    multiplatformResourcesPackage = "com.nelogica.profitchart.core"
+    multiplatformResourcesPackage = "com.example.shared_core"
     iosBaseLocalizationRegion = "pt"
     multiplatformResourcesSourceSet = "commonMain"
 }

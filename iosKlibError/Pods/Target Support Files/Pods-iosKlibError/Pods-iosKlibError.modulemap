@@ -1,0 +1,6 @@
+framework module Pods_iosKlibError {
+  umbrella header "Pods-iosKlibError-umbrella.h"
+
+  export *
+  module * { export * }
+}
