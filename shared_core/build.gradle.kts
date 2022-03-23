@@ -31,7 +31,6 @@ kotlin {
             summary = "Some description for the Shared Module"
             homepage = "Link to the Shared Module homepage"
             baseName = "shared_core"
-            isStatic = false
             embedBitcode(org.jetbrains.kotlin.gradle.plugin.mpp.BitcodeEmbeddingMode.BITCODE)
         }
 //        podfile = project.file("../../ios/Podfile")

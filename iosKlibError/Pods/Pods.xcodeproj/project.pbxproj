@@ -20,15 +20,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A0109196C2D29414180899E48A8D7E1 /* Pods-iosKlibErrorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A05CB6D404681B4E2F8573DF241163D /* Pods-iosKlibErrorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A0109196C2D29414180899E48A8D7E1 /* Pods-iosKlibErrorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 720FE7ABBB5F884F299BDBC4F241B101 /* Pods-iosKlibErrorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25149397D59789A5BD29806626F6751A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8CF30710F151E6FEA79EFBD8B539750E /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C94AB631A1DBE6DB7A91F34B863B0178 /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9712D922F5AF489297078AD954AA057D /* Pods-iosKlibError-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6596C15E52B5EAB7BB9AD702E8EEBEC /* Pods-iosKlibError-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF30710F151E6FEA79EFBD8B539750E /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D841AA11793BB8BE9574FA6F0894D049 /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9712D922F5AF489297078AD954AA057D /* Pods-iosKlibError-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E557DF1A013A211D331EC1AA02518F75 /* Pods-iosKlibError-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F9A859A175B46BE3BFF356100D1B52B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BE3A8FC587BC32580C53D2CFBC3E3B90 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F48C7093ADAFD4C6308973D6E737C0 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m */; };
-		C8EC9FF01F60990F90FC404F138DC93C /* Pods-iosKlibErrorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A08C406169C9721D50FF325DF7BCF2 /* Pods-iosKlibErrorTests-dummy.m */; };
+		BE3A8FC587BC32580C53D2CFBC3E3B90 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8CFD7D15E338319D72E68B192B9D2 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m */; };
+		C8EC9FF01F60990F90FC404F138DC93C /* Pods-iosKlibErrorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C66B7C4B0FB00EA41D71C79AE688DD2 /* Pods-iosKlibErrorTests-dummy.m */; };
 		D09BB671DB7431E26F2ECA503DABF49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DA6E2307BFE47ACA64BBD5AE477C06CE /* Pods-iosKlibError-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CF14CEFE9A74F02F6F815153757800 /* Pods-iosKlibError-dummy.m */; };
+		DA6E2307BFE47ACA64BBD5AE477C06CE /* Pods-iosKlibError-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF04F1000EA5D43C0E3728E4B2D4757 /* Pods-iosKlibError-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,41 +56,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0362E884E0C81763495797FFA044ECEE /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		05B635507E998238C79CD9DBC5EB8FAF /* shared_core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_core.release.xcconfig; sourceTree = "<group>"; };
-		2034A5680A5C9BDEC0DCB97CECB29BD0 /* Pods-iosKlibError-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-Info.plist"; sourceTree = "<group>"; };
-		2243557E53C134AB9E0273F888AB96C4 /* Pods-iosKlibErrorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibErrorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C66B7C4B0FB00EA41D71C79AE688DD2 /* Pods-iosKlibErrorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosKlibErrorTests-dummy.m"; sourceTree = "<group>"; };
+		1CEB253BC18C903727817A733E30B5CE /* Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		288653B8E2CC0279D70EE2A2D69E60F4 /* Pods-iosKlibErrorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibErrorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2958B29065E07537AEF523C9B96796C6 /* shared_core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_core.debug.xcconfig; sourceTree = "<group>"; };
-		29A0A917BDB8FD964EEA9509C66449D3 /* Pods-iosKlibError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError.debug.xcconfig"; sourceTree = "<group>"; };
 		2CB4746F98BD2180F714DB4B11E6BFE4 /* shared_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared_core.framework; path = build/cocoapods/framework/shared_core.framework; sourceTree = "<group>"; };
-		47583CDBEF2385850EACB7890D23AABE /* Pods-iosKlibError-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosKlibError-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A05CB6D404681B4E2F8573DF241163D /* Pods-iosKlibErrorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosKlibErrorTests-umbrella.h"; sourceTree = "<group>"; };
-		4CF7091BB66C7109E7CCC2F82FA3E486 /* Pods-iosKlibError-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DF04F1000EA5D43C0E3728E4B2D4757 /* Pods-iosKlibError-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosKlibError-dummy.m"; sourceTree = "<group>"; };
+		3DDFA38AAE76C5BECC154B49CC2F3B33 /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CA8CFD7D15E338319D72E68B192B9D2 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosKlibError-iosKlibErrorUITests-dummy.m"; sourceTree = "<group>"; };
 		58583E37162C70A977C1BA0F78DB364E /* Pods-iosKlibError-iosKlibErrorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosKlibError-iosKlibErrorUITests"; path = Pods_iosKlibError_iosKlibErrorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59A08C406169C9721D50FF325DF7BCF2 /* Pods-iosKlibErrorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosKlibErrorTests-dummy.m"; sourceTree = "<group>"; };
-		5AAFEF8F2C499F6FDD24CE7BED274659 /* Pods-iosKlibErrorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosKlibErrorTests.modulemap"; sourceTree = "<group>"; };
-		6724438BD07B3FF47C3367C6C6A0F945 /* Pods-iosKlibErrorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibErrorTests-Info.plist"; sourceTree = "<group>"; };
-		6DB1BAD42B1C8FC73A896E9FC9794694 /* Pods-iosKlibErrorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibErrorTests.release.xcconfig"; sourceTree = "<group>"; };
-		6FFD10472D1E397DDF7C8B5411283B7A /* Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59F28295CE1B83F501B81F7C33C896B0 /* Pods-iosKlibError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError.release.xcconfig"; sourceTree = "<group>"; };
+		62763AB209D746FC5BDEFF6742396ABE /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FABD60A6F6DB21862A23F08185CA490 /* Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		720FE7ABBB5F884F299BDBC4F241B101 /* Pods-iosKlibErrorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosKlibErrorTests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		770354250705911F64B8E48697F58BF9 /* Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		78CF14CEFE9A74F02F6F815153757800 /* Pods-iosKlibError-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosKlibError-dummy.m"; sourceTree = "<group>"; };
+		77CC8769D36A8EBEB62BDB8FF46433DD /* Pods-iosKlibError-iosKlibErrorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-iosKlibErrorUITests-Info.plist"; sourceTree = "<group>"; };
+		7E1E68AB269C1547F909558B25CE5AE8 /* Pods-iosKlibError-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F64A8E3DBAE833F7719AB884C80BA01 /* Pods-iosKlibErrorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosKlibErrorTests"; path = Pods_iosKlibErrorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		873CCFEC19D290E83D5797563A207CD4 /* Pods-iosKlibError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError.debug.xcconfig"; sourceTree = "<group>"; };
 		929ECAD3F951DF7C4568B7A11CD7E6DB /* shared_core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shared_core.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		931AE692671C984128C553F68D57EE46 /* Pods-iosKlibErrorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibErrorTests-Info.plist"; sourceTree = "<group>"; };
+		990D934B5AFFA25321786F764385F35F /* Pods-iosKlibError-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosKlibError-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5BF372098540016C0C40A840FAAB1D /* Pods-iosKlibError-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosKlibError-frameworks.sh"; sourceTree = "<group>"; };
 		A004EA67EC4DF3E42BB5A46BAD565753 /* Pods-iosKlibError */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosKlibError"; path = Pods_iosKlibError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A119AAAA9ECC8B306E7A100C979717E5 /* Pods-iosKlibError-iosKlibErrorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosKlibError-iosKlibErrorUITests.modulemap"; sourceTree = "<group>"; };
-		BAE1A4244BB9B9005CD5EBE8B894D237 /* Pods-iosKlibErrorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosKlibErrorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C94AB631A1DBE6DB7A91F34B863B0178 /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosKlibError-iosKlibErrorUITests-umbrella.h"; sourceTree = "<group>"; };
-		DD4659D3B3C966ACA63DA226B50DEB5A /* Pods-iosKlibError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibError.release.xcconfig"; sourceTree = "<group>"; };
-		DD8D4788E8FB608681E8C44484E1594B /* Pods-iosKlibError-iosKlibErrorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-iosKlibErrorUITests-Info.plist"; sourceTree = "<group>"; };
-		E4F48C7093ADAFD4C6308973D6E737C0 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosKlibError-iosKlibErrorUITests-dummy.m"; sourceTree = "<group>"; };
-		E508F59C1C2E4AF7D6A1D1E4287ED3E0 /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6DF986A12CE72C5465972FBD4772A36 /* Pods-iosKlibErrorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibErrorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7EC91DA9C3F187EA04034BCCC37609C /* Pods-iosKlibError.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosKlibError.modulemap"; sourceTree = "<group>"; };
-		F0F94A4FF1CB9BC470DD3BD85D340158 /* Pods-iosKlibError-iosKlibErrorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosKlibError-iosKlibErrorUITests-frameworks.sh"; sourceTree = "<group>"; };
-		F6596C15E52B5EAB7BB9AD702E8EEBEC /* Pods-iosKlibError-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosKlibError-umbrella.h"; sourceTree = "<group>"; };
+		A392908400E819FEE001ED26E8C3EA7F /* Pods-iosKlibErrorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosKlibErrorTests.modulemap"; sourceTree = "<group>"; };
+		AB36A8C44C5D8008FD890567455A2573 /* Pods-iosKlibError.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosKlibError.modulemap"; sourceTree = "<group>"; };
+		AE9A160A4A0444E6872D0889A41A5B8C /* Pods-iosKlibError-iosKlibErrorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosKlibError-iosKlibErrorUITests.modulemap"; sourceTree = "<group>"; };
+		BD22B4E8BC2932AFC6607C0CF08E4CF4 /* Pods-iosKlibErrorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosKlibErrorTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3CE9578CFA04FCAF88F7244F635851F /* Pods-iosKlibError-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibError-Info.plist"; sourceTree = "<group>"; };
+		D841AA11793BB8BE9574FA6F0894D049 /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosKlibError-iosKlibErrorUITests-umbrella.h"; sourceTree = "<group>"; };
+		E557DF1A013A211D331EC1AA02518F75 /* Pods-iosKlibError-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosKlibError-umbrella.h"; sourceTree = "<group>"; };
+		F8A8B9299BCD7A02E890AE8BD63D801C /* Pods-iosKlibErrorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosKlibErrorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA241A9008BB90E2DDABF5FB3CE5B17F /* Pods-iosKlibErrorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosKlibErrorTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +119,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		308FE54DA3B2F9E0DB22E89EB198D7D1 /* Pods-iosKlibErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A392908400E819FEE001ED26E8C3EA7F /* Pods-iosKlibErrorTests.modulemap */,
+				F8A8B9299BCD7A02E890AE8BD63D801C /* Pods-iosKlibErrorTests-acknowledgements.markdown */,
+				FA241A9008BB90E2DDABF5FB3CE5B17F /* Pods-iosKlibErrorTests-acknowledgements.plist */,
+				1C66B7C4B0FB00EA41D71C79AE688DD2 /* Pods-iosKlibErrorTests-dummy.m */,
+				931AE692671C984128C553F68D57EE46 /* Pods-iosKlibErrorTests-Info.plist */,
+				720FE7ABBB5F884F299BDBC4F241B101 /* Pods-iosKlibErrorTests-umbrella.h */,
+				288653B8E2CC0279D70EE2A2D69E60F4 /* Pods-iosKlibErrorTests.debug.xcconfig */,
+				BD22B4E8BC2932AFC6607C0CF08E4CF4 /* Pods-iosKlibErrorTests.release.xcconfig */,
+			);
+			name = "Pods-iosKlibErrorTests";
+			path = "Target Support Files/Pods-iosKlibErrorTests";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,39 +149,6 @@
 				2CB4746F98BD2180F714DB4B11E6BFE4 /* shared_core.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5E80C0406C603717AA8E7CACEC47F56E /* Pods-iosKlibError-iosKlibErrorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A119AAAA9ECC8B306E7A100C979717E5 /* Pods-iosKlibError-iosKlibErrorUITests.modulemap */,
-				E508F59C1C2E4AF7D6A1D1E4287ED3E0 /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.markdown */,
-				0362E884E0C81763495797FFA044ECEE /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.plist */,
-				E4F48C7093ADAFD4C6308973D6E737C0 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m */,
-				F0F94A4FF1CB9BC470DD3BD85D340158 /* Pods-iosKlibError-iosKlibErrorUITests-frameworks.sh */,
-				DD8D4788E8FB608681E8C44484E1594B /* Pods-iosKlibError-iosKlibErrorUITests-Info.plist */,
-				C94AB631A1DBE6DB7A91F34B863B0178 /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h */,
-				6FFD10472D1E397DDF7C8B5411283B7A /* Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig */,
-				770354250705911F64B8E48697F58BF9 /* Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig */,
-			);
-			name = "Pods-iosKlibError-iosKlibErrorUITests";
-			path = "Target Support Files/Pods-iosKlibError-iosKlibErrorUITests";
-			sourceTree = "<group>";
-		};
-		71E672A7F56D35D41012959A1A660627 /* Pods-iosKlibErrorTests */ = {
-			isa = PBXGroup;
-			children = (
-				5AAFEF8F2C499F6FDD24CE7BED274659 /* Pods-iosKlibErrorTests.modulemap */,
-				BAE1A4244BB9B9005CD5EBE8B894D237 /* Pods-iosKlibErrorTests-acknowledgements.markdown */,
-				2243557E53C134AB9E0273F888AB96C4 /* Pods-iosKlibErrorTests-acknowledgements.plist */,
-				59A08C406169C9721D50FF325DF7BCF2 /* Pods-iosKlibErrorTests-dummy.m */,
-				6724438BD07B3FF47C3367C6C6A0F945 /* Pods-iosKlibErrorTests-Info.plist */,
-				4A05CB6D404681B4E2F8573DF241163D /* Pods-iosKlibErrorTests-umbrella.h */,
-				E6DF986A12CE72C5465972FBD4772A36 /* Pods-iosKlibErrorTests.debug.xcconfig */,
-				6DB1BAD42B1C8FC73A896E9FC9794694 /* Pods-iosKlibErrorTests.release.xcconfig */,
-			);
-			name = "Pods-iosKlibErrorTests";
-			path = "Target Support Files/Pods-iosKlibErrorTests";
 			sourceTree = "<group>";
 		};
 		83D92F015CD122699CE43B2E9F562767 /* Development Pods */ = {
@@ -196,12 +177,28 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		BF7252B3471073EBC036937E706AD6BB /* Targets Support Files */ = {
+		97F0BD2AA196464468EF9182262623F3 /* Pods-iosKlibError-iosKlibErrorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F1802C4333863E5EA448EE3F3E836604 /* Pods-iosKlibError */,
-				5E80C0406C603717AA8E7CACEC47F56E /* Pods-iosKlibError-iosKlibErrorUITests */,
-				71E672A7F56D35D41012959A1A660627 /* Pods-iosKlibErrorTests */,
+				AE9A160A4A0444E6872D0889A41A5B8C /* Pods-iosKlibError-iosKlibErrorUITests.modulemap */,
+				3DDFA38AAE76C5BECC154B49CC2F3B33 /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.markdown */,
+				62763AB209D746FC5BDEFF6742396ABE /* Pods-iosKlibError-iosKlibErrorUITests-acknowledgements.plist */,
+				4CA8CFD7D15E338319D72E68B192B9D2 /* Pods-iosKlibError-iosKlibErrorUITests-dummy.m */,
+				77CC8769D36A8EBEB62BDB8FF46433DD /* Pods-iosKlibError-iosKlibErrorUITests-Info.plist */,
+				D841AA11793BB8BE9574FA6F0894D049 /* Pods-iosKlibError-iosKlibErrorUITests-umbrella.h */,
+				1CEB253BC18C903727817A733E30B5CE /* Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig */,
+				6FABD60A6F6DB21862A23F08185CA490 /* Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig */,
+			);
+			name = "Pods-iosKlibError-iosKlibErrorUITests";
+			path = "Target Support Files/Pods-iosKlibError-iosKlibErrorUITests";
+			sourceTree = "<group>";
+		};
+		9A6989E04A25F63D1C090C5F20968076 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D103C1FCDF62A7D7F7BA1310E53D6439 /* Pods-iosKlibError */,
+				97F0BD2AA196464468EF9182262623F3 /* Pods-iosKlibError-iosKlibErrorUITests */,
+				308FE54DA3B2F9E0DB22E89EB198D7D1 /* Pods-iosKlibErrorTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -223,8 +220,24 @@
 				83D92F015CD122699CE43B2E9F562767 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				863AD7CDBB0CDCF61875969E244442B4 /* Products */,
-				BF7252B3471073EBC036937E706AD6BB /* Targets Support Files */,
+				9A6989E04A25F63D1C090C5F20968076 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D103C1FCDF62A7D7F7BA1310E53D6439 /* Pods-iosKlibError */ = {
+			isa = PBXGroup;
+			children = (
+				AB36A8C44C5D8008FD890567455A2573 /* Pods-iosKlibError.modulemap */,
+				990D934B5AFFA25321786F764385F35F /* Pods-iosKlibError-acknowledgements.markdown */,
+				7E1E68AB269C1547F909558B25CE5AE8 /* Pods-iosKlibError-acknowledgements.plist */,
+				2DF04F1000EA5D43C0E3728E4B2D4757 /* Pods-iosKlibError-dummy.m */,
+				D3CE9578CFA04FCAF88F7244F635851F /* Pods-iosKlibError-Info.plist */,
+				E557DF1A013A211D331EC1AA02518F75 /* Pods-iosKlibError-umbrella.h */,
+				873CCFEC19D290E83D5797563A207CD4 /* Pods-iosKlibError.debug.xcconfig */,
+				59F28295CE1B83F501B81F7C33C896B0 /* Pods-iosKlibError.release.xcconfig */,
+			);
+			name = "Pods-iosKlibError";
+			path = "Target Support Files/Pods-iosKlibError";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -244,23 +257,6 @@
 			);
 			name = shared_core;
 			path = ../../shared_core;
-			sourceTree = "<group>";
-		};
-		F1802C4333863E5EA448EE3F3E836604 /* Pods-iosKlibError */ = {
-			isa = PBXGroup;
-			children = (
-				E7EC91DA9C3F187EA04034BCCC37609C /* Pods-iosKlibError.modulemap */,
-				47583CDBEF2385850EACB7890D23AABE /* Pods-iosKlibError-acknowledgements.markdown */,
-				4CF7091BB66C7109E7CCC2F82FA3E486 /* Pods-iosKlibError-acknowledgements.plist */,
-				78CF14CEFE9A74F02F6F815153757800 /* Pods-iosKlibError-dummy.m */,
-				9E5BF372098540016C0C40A840FAAB1D /* Pods-iosKlibError-frameworks.sh */,
-				2034A5680A5C9BDEC0DCB97CECB29BD0 /* Pods-iosKlibError-Info.plist */,
-				F6596C15E52B5EAB7BB9AD702E8EEBEC /* Pods-iosKlibError-umbrella.h */,
-				29A0A917BDB8FD964EEA9509C66449D3 /* Pods-iosKlibError.debug.xcconfig */,
-				DD4659D3B3C966ACA63DA226B50DEB5A /* Pods-iosKlibError.release.xcconfig */,
-			);
-			name = "Pods-iosKlibError";
-			path = "Target Support Files/Pods-iosKlibError";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,7 +481,7 @@
 		};
 		11E9CEB735D4A16D6FD0BE905D30FA6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 770354250705911F64B8E48697F58BF9 /* Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig */;
+			baseConfigurationReference = 6FABD60A6F6DB21862A23F08185CA490 /* Pods-iosKlibError-iosKlibErrorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -523,7 +519,7 @@
 		};
 		1D9621511E1D324EA98C880E9D045ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FFD10472D1E397DDF7C8B5411283B7A /* Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig */;
+			baseConfigurationReference = 1CEB253BC18C903727817A733E30B5CE /* Pods-iosKlibError-iosKlibErrorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -627,7 +623,7 @@
 		};
 		53C989E0F47F571027F0F14F9C95FE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6DF986A12CE72C5465972FBD4772A36 /* Pods-iosKlibErrorTests.debug.xcconfig */;
+			baseConfigurationReference = 288653B8E2CC0279D70EE2A2D69E60F4 /* Pods-iosKlibErrorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -664,7 +660,7 @@
 		};
 		6A3FC01BE7A40FC317521BFDDB290577 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD4659D3B3C966ACA63DA226B50DEB5A /* Pods-iosKlibError.release.xcconfig */;
+			baseConfigurationReference = 59F28295CE1B83F501B81F7C33C896B0 /* Pods-iosKlibError.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -720,7 +716,7 @@
 		};
 		A95A1B1EE767BE6AAE038BF2A35668F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29A0A917BDB8FD964EEA9509C66449D3 /* Pods-iosKlibError.debug.xcconfig */;
+			baseConfigurationReference = 873CCFEC19D290E83D5797563A207CD4 /* Pods-iosKlibError.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -820,7 +816,7 @@
 		};
 		FDC11E3FFED5B94B955760AB1CBE5DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB1BAD42B1C8FC73A896E9FC9794694 /* Pods-iosKlibErrorTests.release.xcconfig */;
+			baseConfigurationReference = BD22B4E8BC2932AFC6607C0CF08E4CF4 /* Pods-iosKlibErrorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
