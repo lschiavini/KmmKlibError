@@ -1,5 +1,7 @@
 package com.example.shared_core
 
+//import kotlinx.coroutines.awaitAll
+
 //import kotlin.native.concurrent.ThreadLocal
 //import kotlin.native.concurrent.SharedImmutable
 //
@@ -23,7 +25,7 @@ open class AsynchronousAccess(var size: Int) {
         return this.array
     }
 
-
+    
     fun setData(value: Int) {
         this.array.set(this.posCurrent, value)
         this.posCurrent++

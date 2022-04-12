@@ -10,18 +10,23 @@ import Foundation
 import shared_core
 
 class TestAsynchronousAccess: AsynchronousAccess {
-    
+    var freeze: AsynchronousAccess? = nil
     let sizeArray: Int32
     
     init(qtd: Int32) {
         self.sizeArray = qtd
         super.init(size: qtd)
+        self.freeze = self.toFreeze()
+        
     }
     
     func insertValue() {
         var i: Int32 = 1
         while i < sizeArray {
-            self.setData(value: i - Int32(1))
+            
+            if let fr = freeze {
+                fr.getData()
+            }
             i = i + Int32(1)
         }
     }

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import shared_core
 
 @available(iOS 13.0.0, *)
 struct ContentView: View {
@@ -21,13 +21,14 @@ struct ContentView: View {
         }
     }
     
-    
+   
     func runAsync() {
         RunTest.shared.runAsync()
     }
     
+    
     func runSync() {
-        RunTest.shared.runSync()
+       RunTest.shared.runSync()
     }
 }
 
