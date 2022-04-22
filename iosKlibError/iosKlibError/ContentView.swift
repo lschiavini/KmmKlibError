@@ -18,6 +18,7 @@ struct ContentView: View {
             Text("Hello, world!").padding()
             Button(action: runAsync) { Text("Run Async") }
             Button(action: runSync) { Text("Run Sync") }
+            Button(action: runStately) { Text("Run Stately") }
         }
     }
     
@@ -29,6 +30,15 @@ struct ContentView: View {
     
     func runSync() {
        RunTest.shared.runSync()
+    }
+    
+    func runStately() {
+        
+        DispatchQueue.main.async {
+            StatelyExample.companion.doStuff()
+            StatelyExample.companion.readStuff()
+            StatelyExample.companion.atomicOperations()
+        }
     }
 }
 

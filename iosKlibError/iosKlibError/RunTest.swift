@@ -12,7 +12,7 @@ class RunTest {
     
     static var shared: RunTest  = RunTest()
     
-    var asynchronous: TestAsynchronousAccess = TestAsynchronousAccess(qtd: Int32(1000000))
+    var asynchronous: TestAsynchronousAccess = TestAsynchronousAccess(qtd: Int32(1000))
 
 
     func runAsync() {
@@ -26,31 +26,31 @@ class RunTest {
             self.asynchronous.insertValue()
             print("Finish 01")
         }
-        
-        serialQueue_02.async {
-            self.asynchronous.insertValue()
-            print("Finish 02")
-        }
-        
-        serialQueue_03.async {
-            self.asynchronous.insertValue()
-            print("Finish 03")
-        }
-        
-        serialQueue_04.async {
-            self.asynchronous.insertValue()
-            print("Finish 04")
-        }
-        
-        serialQueue_05.async {
-            self.asynchronous.insertValue()
-            print("Finish 05")
-        }
-        
-        serialQueue_06.async {
-            self.asynchronous.insertValue()
-            print("Finish 06")
-        }
+//
+//        serialQueue_02.async {
+//            self.asynchronous.insertValue()
+//            print("Finish 02")
+//        }
+//
+//        serialQueue_03.async {
+//            self.asynchronous.insertValue()
+//            print("Finish 03")
+//        }
+//
+//        serialQueue_04.async {
+//            self.asynchronous.insertValue()
+//            print("Finish 04")
+//        }
+//
+//        serialQueue_05.async {
+//            self.asynchronous.insertValue()
+//            print("Finish 05")
+//        }
+//
+//        serialQueue_06.async {
+//            self.asynchronous.insertValue()
+//            print("Finish 06")
+//        }
         
     }
     func runSync()  {

@@ -14,7 +14,7 @@ open class AsynchronousAccess(var size: Int) {
 
 
     fun getResult() : Int {
-        var total = 0
+        var total: Int = 0
         for ( i in array) {
             total =+ i
         }
@@ -25,7 +25,7 @@ open class AsynchronousAccess(var size: Int) {
         return this.array
     }
 
-    
+
     fun setData(value: Int) {
         this.array.set(this.posCurrent, value)
         this.posCurrent++
