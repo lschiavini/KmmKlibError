@@ -4,7 +4,7 @@
 //
 //  Created by Mac on 23/03/22.
 //
-
+import shared_core
 import XCTest
 @testable import iosKlibError
 
@@ -31,6 +31,13 @@ class iosKlibErrorTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testRunAsyncMemory() {
+        var stately = StatelyExample()
+        stately.doStuff()
+        XCTAssert(true, "teste executado")
+//        RunTest.shared.runAsync()
     }
 
 }

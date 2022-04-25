@@ -3,9 +3,9 @@ package com.example.shared_core
 import co.touchlab.stately.isolate.IsolateState
 
 
-class StatelyExample {
+open class StatelyExample {
 
-    companion object {
+   
         fun doStuff() {
             StateSample.cacheMap.access {map ->
                 map.put("Hello", SomeData("World"))
@@ -25,5 +25,5 @@ class StatelyExample {
                 map.put("i ${map.size}", SomeData("data ${map.size}"))
             }
         }
-    }
+    
 }

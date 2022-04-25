@@ -35,9 +35,9 @@ struct ContentView: View {
     func runStately() {
         
         DispatchQueue.main.async {
-            StatelyExample.companion.doStuff()
-            StatelyExample.companion.readStuff()
-            StatelyExample.companion.atomicOperations()
+//            StatelyExample.companion.doStuff()
+//            StatelyExample.companion.readStuff()
+//            StatelyExample.companion.atomicOperations()
         }
     }
 }

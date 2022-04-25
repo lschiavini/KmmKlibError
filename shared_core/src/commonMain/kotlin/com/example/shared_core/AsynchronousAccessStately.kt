@@ -10,16 +10,31 @@ data class AppContainerState(
 
 
 
-open class AsynchronousAccessStately : IsolateState<AppContainerState>(producer = { AppContainerState() }){
+open class AsynchronousAccessStately {
 
-    var index : Int = 0
+    val cacheMap = IsolateState { mutableMapOf<String, SomeData>() }
 
-    fun setData(position: Int) {
-        if (index < 1000) {
-            val ac = access { it.array.set(index, position) }
+    fun doStuff() {
+        cacheMap.access {map ->
+            map.put("Hello", SomeData("World"))
         }
-        index ++
     }
+
+    fun readStuff() {
+        val sd = cacheMap.access { it.get("Hello") }
+//        println("sd: $sd, isFrozen: ${sd.isFrozen()}")
+        println("sd: $sd, isFrozen: ${sd}")
+    }
+
+
+    fun atomicOperations() {
+        var state = cacheMap
+        state.access { map ->
+            map.put("i ${map.size}", SomeData("data ${map.size}"))
+        }
+    }
+
+
 
 //    var array = IsoMutableList<Int>()
 

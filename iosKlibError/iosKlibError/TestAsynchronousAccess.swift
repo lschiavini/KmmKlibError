@@ -33,29 +33,19 @@ import shared_core
 //}
 
 
-class TestAsynchronousAccess: AsynchronousAccessStately {
-//    var freeze: AsynchronousAccess? = nil
-    let sizeArray: Int32
+//class TestAsynchronousAccess: AsynchronousAccessStately {
+//
+//    func insertValue() {
+//        self.doStuff()
+//    }
+//}
 
-    init(qtd: Int32) {
-        self.sizeArray = qtd
-        super.init()
-//        self.freeze = self.toFreeze()
 
-    }
+class TestAsynchronousAccess: StatelyExample {
 
     func insertValue() {
-        var i: Int32 = 1
-        while i < sizeArray {
-            self.setData(position: i)
-//            if let fr = freeze {
-
-//            }
-            i = i + Int32(1)
-        }
-//        print(self.getData())
+        self.doStuff()
     }
 }
-
 
 
