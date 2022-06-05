@@ -4,7 +4,7 @@
 //
 //  Created by Mac on 23/03/22.
 //
-import shared_core
+import shared_core.StatelyExample
 import XCTest
 @testable import iosKlibError
 
