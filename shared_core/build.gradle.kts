@@ -44,8 +44,13 @@ kotlin {
                 api("org.jetbrains.kotlinx:kotlinx-datetime:0.3.1")
 
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1")
-                implementation("co.touchlab:stately-isolate:1.1.4-a1")
-                implementation("co.touchlab:stately-iso-collections:1.1.4-a1")
+//                implementation("co.touchlab:stately-isolate:1.1.4-a1")
+//                implementation("co.touchlab:stately-iso-collections:1.1.4-a1")
+
+                implementation("co.touchlab:stately-iso-collections:1.2.0")
+//                implementation("co.touchlab:stately-common:1.2.0")
+//                implementation("co.touchlab:stately-concurrency:1.2.0")
+//                implementation("co.touchlab:stately-isolate:1.2.0")
 
                 api("dev.icerock.moko:resources:0.17.2")
             }
